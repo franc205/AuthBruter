@@ -37,7 +37,8 @@ def dicAttack():
         data_aux = "Log in to Twitter" #Data to determinate if I'm in the Welcome Page
         first_data = re.compile(data)
         second_data = re.compile(data_aux)
-        file = open("dic.txt", "r+").read().split('\n') #Eliminate the "New Line" in file
+        choose = str(raw_input("Enter the path of the dic: "))
+        file = open(choose, "r+").read().split('\n') #Eliminate the "New Line" in file
         for line in file:
             print "Hash Value: %s" % line #Select a Hash from dic
             cookie = {'auth_token' : 'default' , 'lang' : 'en'} #Dictionary of Cookies
@@ -90,15 +91,15 @@ Please chose an option:
 2. Use a Dictionary.
 3. Exit.
     '''
-    chose = int(raw_input("Enter your option: "))
-    if (chose == 1):
+    choose = int(raw_input("Enter your option: "))
+    if (choose == 1):
         bruteForce()
-    elif (chose == 2):
+    elif (choose == 2):
         dicAttack()
-    elif (chose == 3):
+    elif (choose == 3):
         exit()
     else:
-        print("You haven't chose a valid option")
+        print("You haven't choose a valid option")
         main()
     return
 
