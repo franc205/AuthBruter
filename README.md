@@ -1,5 +1,5 @@
 # AuthBruter
-This tools allows you to brute force the "auth token" on Twitter.
+This tool allows you to brute force the "auth token" cookie on Twitter.
 
 #Instalation
 
