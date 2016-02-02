@@ -10,7 +10,7 @@ This tools allows you to brute force the "auth token" on Twitter.
 #Requirements
 
   Python 2.7
-  An operating system (tested on Elementary OS)
+  <p>An operating system (tested on Elementary OS)</p>
 
 #Contact
 
