@@ -14,6 +14,6 @@ This tools allows you to brute force the "auth token" on Twitter.
 
 #Contact
 
--Facebook : https://facebook.com/franc205
--Twitter: @Franc_205
--Email : franc.c205@gmail.com
+- Facebook : https://facebook.com/franc205
+- Twitter: @Franc_205
+- Email : franc.c205@gmail.com
