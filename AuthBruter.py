@@ -68,7 +68,7 @@ def main():
  / ___ |/ /_/ // /_ / / / /  / /_/ // /   / /_/ // /_ /  __// /    
 /_/  |_|\__,_/ \__//_/ /_/  /_____//_/    \__,_/ \__/ \___//_/     
                                                                                                                                                                                                                                                                          
-                                               By Francisco Canteli
+                                                    By Fran Canteli
 
 Please chose an option:
 1. Use Brute Force.
